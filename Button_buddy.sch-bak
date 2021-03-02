@@ -1,0 +1,104 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R?
+U 1 1 60391BC0
+P 2850 3650
+F 0 "R?" H 2920 3696 50  0000 L CNN
+F 1 "1k" H 2920 3605 50  0000 L CNN
+F 2 "" V 2780 3650 50  0001 C CNN
+F 3 "~" H 2850 3650 50  0001 C CNN
+	1    2850 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60391E85
+P 3200 3650
+F 0 "R?" H 3270 3696 50  0000 L CNN
+F 1 "4.7k" H 3270 3605 50  0000 L CNN
+F 2 "" V 3130 3650 50  0001 C CNN
+F 3 "~" H 3200 3650 50  0001 C CNN
+	1    3200 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60392519
+P 3500 3650
+F 0 "R?" H 3570 3696 50  0000 L CNN
+F 1 "27" H 3570 3605 50  0000 L CNN
+F 2 "" V 3430 3650 50  0001 C CNN
+F 3 "~" H 3500 3650 50  0001 C CNN
+	1    3500 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 603926C1
+P 3800 3650
+F 0 "R?" H 3870 3696 50  0000 L CNN
+F 1 "100k" H 3870 3605 50  0000 L CNN
+F 2 "" V 3730 3650 50  0001 C CNN
+F 3 "~" H 3800 3650 50  0001 C CNN
+	1    3800 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 603A75AC
+P 4350 3650
+F 0 "C?" H 4465 3696 50  0000 L CNN
+F 1 "0.1 uF" H 4465 3605 50  0000 L CNN
+F 2 "" H 4388 3500 50  0001 C CNN
+F 3 "~" H 4350 3650 50  0001 C CNN
+	1    4350 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 603A8122
+P 4850 3650
+F 0 "C?" H 4965 3696 50  0000 L CNN
+F 1 "10uF" H 4965 3605 50  0000 L CNN
+F 2 "" H 4888 3500 50  0001 C CNN
+F 3 "~" H 4850 3650 50  0001 C CNN
+	1    4850 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal Y?
+U 1 1 603A7C4C
+P 5450 3700
+F 0 "Y?" H 5450 3968 50  0000 C CNN
+F 1 "Crystal" H 5450 3877 50  0000 C CNN
+F 2 "" H 5450 3700 50  0001 C CNN
+F 3 "~" H 5450 3700 50  0001 C CNN
+	1    5450 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Nordic_MDBT50Q:113990583 U?
+U 1 1 603B9C59
+P 6700 2600
+F 0 "U?" H 8000 2987 60  0000 C CNN
+F 1 "113990583" H 8000 2881 60  0000 C CNN
+F 2 "113990583_SEE" H 8000 2840 60  0001 C CNN
+F 3 "" H 6700 2600 60  0000 C CNN
+	1    6700 2600
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
